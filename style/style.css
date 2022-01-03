@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-main{
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin:35px 20px;
+}
+
+.container-main > img{
+    width: 280px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.container-main h2:active{
+    color: #00fefa;
+}
+
+.container-main__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.container-main__text h2{
+    font-size: 20px;
+    color: #f6fbf9;
+    font-weight: 600;
+    padding: 15px 0;
+}
+
+.container-main__text h4{
+    font-size: 16px;
+    color:  #6d84ab;
+    font-weight: 400;
+    padding: 15px 0;
+    
+}
+
+
+.container-main__span{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #6d84ab;
+    padding-bottom: 10px;
+}
+
+.container-main__span span:first-child{
+    color: #00fefa;
+
+}
+
+.container-main__span span:nth-child(2){
+    color: #6d84ab;
+    display: flex;
+    align-items: center;
+}
+
+.container-main__span span:nth-child(2) img{
+    margin-right: 5px;
+}
+
+.container-main__avatar{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+.container-main__avatar > img{
+    width: 33px;
+    height: auto;
+    border: 1px solid #f6fbf9;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+.container-main__avatar > p{
+    color: #6d84ab;
+
+}
+
+.container-main__avatar p span{
+    color: #f6fbf9;
+}
+
+.container-main__avatar span:active{
+    color: #00fefa;
+}
+
+@media (min-width: 1440px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container-main{
+        background-color: hsl(216, 50%, 16%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin:35px 20px;
+        width: 500px;
+    }
+    .container-main > img{
+        width: 420px;
+    }
+
+    .container-main__text h2{
+        font-size: 27px;
+        color: #f6fbf9;
+        font-weight: 600;
+        padding: 15px 0;
+      
+    }
+    .container-main__text h4{
+        font-size: 20px;
+        color:  #6d84ab;
+        font-weight: 400;
+        padding: 15px 0;
+    }
+}
